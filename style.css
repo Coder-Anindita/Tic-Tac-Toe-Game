@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    color: #333333;
+    text-align: center;
+    background-color: #FAFAFA;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #2C3E50; 
+    margin-top: 20px;
+}
+.text h5{
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555; /* Medium grey */
+    margin-bottom: 20px;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 320px;
+    width: 320px;
+    
+    background-color: #ffffff;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    background-color: #FAFAFA;
+    border-radius: 8%;
+    border: 2px solid #2C3E50;
+    margin: 2px;
+    font-size: 50px;
+    
+    color: #2C3E50;
+    
+    transition-duration: 0.5s;
+    
+}
+.cell:hover{
+    transform: scale(1.06) ;
+    box-shadow: 0 4px 8px #2C3E50;
+    
+    
+}
+.reset,.new{
+    font-size: 30px;
+    border-radius: 8%;
+    border: 2px solid #2C3E50;
+    transition: 0.5s;
+    margin: 2px;
+
+}
+.reset:hover{
+    transform: scale(1.1);
+    
+
+}
+.new:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+    
+    
